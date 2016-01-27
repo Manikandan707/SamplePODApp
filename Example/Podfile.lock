@@ -1,0 +1,14 @@
+PODS:
+  - SamplePODApp (0.1.0)
+
+DEPENDENCIES:
+  - SamplePODApp (from `../`)
+
+EXTERNAL SOURCES:
+  SamplePODApp:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SamplePODApp: b324c0dfb1fb255ea48a1ed811182bde90647324
+
+COCOAPODS: 0.39.0

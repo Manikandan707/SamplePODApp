@@ -1,0 +1,6 @@
+framework module SamplePODApp {
+  umbrella header "SamplePODApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
