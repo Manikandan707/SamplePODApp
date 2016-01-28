@@ -8,17 +8,15 @@
 
 Pod::Spec.new do |s|
   s.name             = "SamplePODApp"
-  s.version          = "0.1.1"
-  s.summary          = "SamplePODApp 0.1.1"
+  s.version          = "0.1.2"
+  s.summary          = "SamplePODApp"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                        Sample app for POD implementaion.
-                       DESC
+
 
   s.homepage         = "https://github.com/Manikandan707/SamplePODApp"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -30,16 +28,20 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-#s.source_files = 'Pod/Classes/**/*'
+  #s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'SamplePODApp' => ['Pod/Assets/*.png']
   }
 
   s.subspec 'SampleClass' do |ss|
-    ss.source_files = 'Pod/Classes/SampleClass.{h,m}'
-    ss.public_header_files = 'Pod/Classes/SampleClass.h'
+    ss.source_files = 'Pod/Classes/SampleClass/SampleClass.{h,m}'
+    ss.public_header_files = 'Pod/Classes/SampleClass/SampleClass.h'
   end
 
+  s.subspec 'SampleClass' do |ss|
+    ss.source_files = 'Pod/Classes/SampleClass1/SampleClass1.{h,m}'
+    ss.public_header_files = 'Pod/Classes/SampleClass1/SampleClass1.h'
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
