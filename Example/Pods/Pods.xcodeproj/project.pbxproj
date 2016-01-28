@@ -10,8 +10,9 @@
 		018FBE42A7C44FE2F3DE21CFBE1F84F0 /* SamplePODApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1C97F9947FA289A644529C8C02D9F /* SamplePODApp-dummy.m */; };
 		07FB1785DE9357680C2D3525A0834747 /* Pods-SamplePODApp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D238FDDB0A15F3ABF6272C28F6916A99 /* Pods-SamplePODApp_Tests-dummy.m */; };
 		39F4C2ADFE7E038037825053FE4057D9 /* Pods-SamplePODApp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F70EEB95CC0D330DB5DB25F21CB7B81 /* Pods-SamplePODApp_Example-dummy.m */; };
+		3DACA2E41C59F0EF00B6872A /* SampleClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DACA2E21C59F0EF00B6872A /* SampleClass.h */; };
+		3DACA2E51C59F0EF00B6872A /* SampleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DACA2E31C59F0EF00B6872A /* SampleClass.m */; };
 		74F67046FAF114EBB0C20E4987FE1469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		81E017C02C35F53AE8EC2B8286B74309 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6443E6DA88C58DCE65A0E671CAA5328B /* ReplaceMe.m */; };
 		85337B714DDCDAE082A673665BCF2A95 /* SamplePODApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 327E13FC87B678C17F17CDAB017E336F /* SamplePODApp.bundle */; };
 		A4E6CDEED77B69F5ACA7499737EEB572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		DE75A84DFCB2B2133F17C81EE241F391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -54,13 +55,14 @@
 		31543B19D231D022A5CFEB052DA6CF73 /* Pods-SamplePODApp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SamplePODApp_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3266CE4BFF5EC6923EF1F2B8A9E5257B /* Pods-SamplePODApp_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SamplePODApp_Example-resources.sh"; sourceTree = "<group>"; };
 		327E13FC87B678C17F17CDAB017E336F /* SamplePODApp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePODApp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DACA2E21C59F0EF00B6872A /* SampleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleClass.h; sourceTree = "<group>"; };
+		3DACA2E31C59F0EF00B6872A /* SampleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleClass.m; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3EBE9CDD55124F5339927B54C824FD16 /* Pods-SamplePODApp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SamplePODApp_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4E22F28ADAF38849C221AF54CD35497F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A23B5A830DB541F7062D217127797EE /* Pods-SamplePODApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SamplePODApp_Tests.modulemap"; sourceTree = "<group>"; };
 		5F7FA8D0D4CCF46BC7E653448422D599 /* Pods_SamplePODApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamplePODApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		610C82D4EF55C61D84DA2F272BB17548 /* SamplePODApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SamplePODApp-prefix.pch"; sourceTree = "<group>"; };
-		6443E6DA88C58DCE65A0E671CAA5328B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		748CAD91727410800BA512FB571BF1B6 /* Pods-SamplePODApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SamplePODApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		765880FD04D31C4F75EFE22C65AD92F5 /* Pods-SamplePODApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SamplePODApp_Example.release.xcconfig"; sourceTree = "<group>"; };
 		76978DFCC50258BA8BAFE756087B761E /* Pods-SamplePODApp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SamplePODApp_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -193,7 +195,8 @@
 		8E36EBA07D02B71F22145FC68D66311A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6443E6DA88C58DCE65A0E671CAA5328B /* ReplaceMe.m */,
+				3DACA2E21C59F0EF00B6872A /* SampleClass.h */,
+				3DACA2E31C59F0EF00B6872A /* SampleClass.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCAB9ECA765F407BB7784C15652E8020 /* Pods-SamplePODApp_Example-umbrella.h in Headers */,
+				3DACA2E41C59F0EF00B6872A /* SampleClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DACA2E51C59F0EF00B6872A /* SampleClass.m in Sources */,
 				39F4C2ADFE7E038037825053FE4057D9 /* Pods-SamplePODApp_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E017C02C35F53AE8EC2B8286B74309 /* ReplaceMe.m in Sources */,
 				018FBE42A7C44FE2F3DE21CFBE1F84F0 /* SamplePODApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
